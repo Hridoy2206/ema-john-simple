@@ -1,0 +1,25 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.product-name{
+    color: #444;
+    font-weight: 500;
+    /* font-family: sans-serif; */
+}
+.product-info{
+    margin-left: 10px;
+}
+.add-to-cart{
+    padding: 5px 40px;
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+.add-to-cart:hover{
+    background-color: #666;
+}
